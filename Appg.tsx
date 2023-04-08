@@ -47,6 +47,7 @@ function Section({children, title}: SectionProps): JSX.Element {
           styles.sectionDescription,
           {
             color: isDarkMode ? Colors.light : Colors.dark,
+           
           },
         ]}>
         {children}
